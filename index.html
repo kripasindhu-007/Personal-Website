@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kripa Sindhu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Kripa Sindhu-logos_black.png" alt="Logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-bars-staggered" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Tech Student </p>
+                <h1>Hi, I'm <span>Kripa</span><br> Sindhu from India.</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <!-------------------about---------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Pic1.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hi, I am Kripa Sindhu. I am from Bihar,India.I am currently pursuing my Bachelor's degree from
+                        Indian Institue of Information Technology, Guwahati in Computer Science and Engineering. I am
+                        passionate about new technology (basically anything related to computer). Currently I am trying
+                        it to gain basic knowledge of everything in tech from Web 3.0 to competitive programming along
+                        with core computer science subjects.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Dev</span><br>Proficient in designing basic website using HTML5,CSS3 and
+                                JavaScript.</li>
+                            <li><span>Coding</span><br>Proficient in C,C++ and have solved easy to medium level
+                                questions on various coding platforms.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>Just Some Presonal Projects.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>BTech from IIIT Guwahati.</li>
+                            <li><span>2018-2020</span><br>High School from S.K.P Vidya Vihar,Bhagalpur.</li>
+                            <li><span>2006-2018</span><br>Pre-School and Middile School from St. Paul's
+                                School,Bhagalpur.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------portfolio---------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Random.jpg" alt="">
+                    <div class="layer">
+                        <h3>Random Choice Selector</h3>
+                        <p>This takes various choices from the user and select one of them randomly.</p>
+                        <a href="https://kripasindhu-007.github.io/Choice-Selector/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+
+                </div>
+                <div class="work">
+                    <img src="images/Website.png" alt="">
+                    <div class="layer">
+                        <h3>Presonal Website</h3>
+                        <p>Created a basic presonal website using HTML, CSS and JavaScript.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div>
+                <!-- <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>UnDefined</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est reiciendis illum sunt voluptatem
+                            fugit eius earum, molestias inventore enim necessitatibus tenetur consequatur laborum,
+                            accusamus voluptatum obcaecati? Sed beatae consequuntur quasi.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div> -->
+            </div>
+            <!-- <a href="#" class="btn">See more</a> -->
+        </div>
+    </div>
+
+
+    <!-- ---------------------contact------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i></i>sindhukripa007@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>919693077256</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/kripa.sindhu.3139/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/kripa-sindhu-9090041b9/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/kripasindhu_007/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/myCV.pdf" download="" class="btn">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" cols="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Kripa Sindhu. Made with passion. <i
+                    class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL =
+            'https://script.google.com/macros/s/AKfycbxESgCSq7XGSTci5DS4x-eHyVsfM0vFayx6tWUvD1qG1mkYQfTHBt0RFk3_sh0GfTQZ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
